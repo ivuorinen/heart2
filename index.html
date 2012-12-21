@@ -30,6 +30,7 @@
         }
         div.attribution a {
             text-transform: uppercase;
+            font-family: Helvetica, Arial, sans-serif;
             text-decoration: none;
             color:          #fff;
         }
@@ -43,11 +44,12 @@
             top:            50%;
             left:           50%;
             margin-left:    -200px;
-            margin-top:     -300px;
+            margin-top:     -200px;
+
             text-align:     center;
             font-size:      500px;
+            line-height:    0%;
             color:          #fff;
-            line-height:    100%;
 
 
             -webkit-animation: heartanimation 10s infinite;
@@ -63,9 +65,9 @@
 
         @-webkit-keyframes heartanimation
         {
-           0%   { font-size: 500px; color: #f00; }
-           50%  { font-size: 1000px; color: #900; width: 800px; height: 400px; margin-left: -400px; }
-           100% { font-size: 500px; color: #f00; width: 400px; height: 200px; margin-left: -200px; }
+           0%   { font-size: 500px;  color: #f00; }
+           50%  { font-size: 1000px; color: #900; width: 800px; height: 400px; margin-top: -400px; margin-left: -400px; }
+           100% { font-size: 500px;  color: #f00; width: 400px; height: 200px; margin-top: -200px; margin-left: -200px; }
         }
     </style>
 </head>
